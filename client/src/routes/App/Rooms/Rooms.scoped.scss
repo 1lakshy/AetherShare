@@ -1,0 +1,122 @@
+@import '../../../scss/variables';
+
+.section-title {
+  font-size: 1.25rem;
+}
+
+section.recent-rooms {
+  margin-top: 1rem;
+}
+
+.rooms {
+  ul.recent-rooms-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+
+  div.message {
+    font-size: 1.3rem;
+    color: $secondary;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .devices-same-room {
+    font-size: 1.1rem;
+    color: $secondary;
+    opacity: 0.6;
+    margin-top: 1.35rem;
+  }
+
+  @media screen and (min-width: $md) {
+    .section-title {
+      margin-bottom: 1.5rem;
+    }
+
+    ul.recent-rooms-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -1rem;
+    }
+  }
+
+  @media screen and (max-width: $md) {
+    .fab-new-room {
+      bottom: 100px;
+    }
+  }
+}
+
+
+// @import '../../../scss/variables';
+
+// .section-title {
+//   font-size: 1.5rem;
+//   font-weight: 600;
+//   color: $primary;
+//   margin-bottom: 1.2rem;
+//   text-align: center;
+// }
+
+// .rooms {
+//   .recent-rooms-list {
+//     padding: 0;
+//     list-style: none;
+//     margin: 0;
+//     display: grid;
+//     gap: 1rem;
+//   }
+
+//   .message {
+//     font-size: 1.2rem;
+//     color: $secondary;
+//     text-align: center;
+//     margin-top: 2rem;
+//   }
+
+//   .room-card {
+//     background: #fff;
+//     border-radius: 12px;
+//     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+//     padding: 1rem 1.25rem;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     transition: box-shadow 0.2s ease;
+//     cursor: pointer;
+
+//     &:hover {
+//       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+//     }
+//   }
+
+//   .highlighted {
+//     border: 2px solid $primary;
+//     background: #f9f9ff;
+//   }
+
+//   .fab-new-room {
+//     bottom: 100px;
+//     right: 20px;
+//     background: $primary;
+//     color: #fff;
+//   }
+
+//   @media screen and (min-width: $md) {
+//     .recent-rooms-list {
+//       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+//     }
+//   }
+
+//   @media screen and (max-width: $md) {
+//     .recent-rooms-list {
+//       grid-template-columns: 1fr;
+//     }
+
+//     .fab-new-room {
+//       bottom: 80px;
+//       right: 16px;
+//     }
+//   }
+// }

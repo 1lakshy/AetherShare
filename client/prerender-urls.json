@@ -1,0 +1,18 @@
+[
+  {
+    "url": "/",
+    "title": "File sharing web app"
+  },
+  {
+    "url": "/app/",
+    "title": "App"
+  },
+  {
+    "url": "/404",
+    "title": "Page could not be found"
+  },
+  {
+    "url": "/how-it-works",
+    "title": "How it works"
+  }
+]

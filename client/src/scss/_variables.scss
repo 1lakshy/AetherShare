@@ -1,0 +1,97 @@
+// $primary: #3BE8B0;
+// $primary-600: #24A87D;
+// $primary-700: #187E5D;
+// $secondary: #636979;
+// $secondary--60: rgba($secondary, 0.6); 
+// $white: #FFFFFF;
+// $bg: #0D1322;
+// $light: #C5C7CC;
+
+// $font: 'Jost', sans-serif;
+// $shadow: 0 8px 35px rgba(0, 0, 0, 0.4);
+// $border: 1px solid #1C2439;
+
+// $font-normal: 500;
+// $font-bold: 600;
+
+// $noise: url(/assets/images/noise.png);
+// $md: 768px;
+// $sm: 640px;
+// $xs: 359px;
+
+
+// Base Colors - Modern Dark Theme
+$bg: #0A0B14;              // Rich dark navy background
+$bg-secondary: #151824;    // Elevated surfaces (cards, panels)
+$bg-elevated: #1E2235;     // Highest elevation (modals, dropdowns)
+
+// Primary Accent: Vibrant Cyber Blue
+$primary: #00D4FF;         // Bright cyan-blue for main actions
+$primary-600: #00B8E6;     // Hover state
+$primary-700: #0099CC;     // Active/pressed state
+
+// Secondary Accent: Electric Purple
+$secondary: #ffffff;       // Rich purple for secondary actions
+$secondary--60: rgba(139, 95, 191, 0.6);
+
+// Success & Status Colors
+$success: #00E676;         // Bright green for success states
+$warning: #FFD700;         // Gold for warnings
+$error: #FF4757;           // Vibrant red for errors
+$noise:S;
+
+// Text Colors
+$text: #F8FAFC;            // High contrast white for primary text
+$text-muted: #94A3B8;      // Cool gray for secondary text
+$text-subtle: #64748B;     // Even more subtle for placeholders
+$white: #FFFFFF;           // Pure white for emphasis
+$light: #E2E8F0;           // Light gray for descriptions
+
+// Gradient Accents
+$gradient-primary: linear-gradient(135deg, #00D4FF 0%, #8B5FBF 100%);
+$gradient-secondary: linear-gradient(135deg, #8B5FBF 0%, #FF4757 100%);
+$gradient-bg: linear-gradient(135deg, #0A0B14 0%, #151824 100%);
+
+// Interactive States
+$hover-overlay: rgba(0, 212, 255, 0.1);
+$active-overlay: rgba(0, 212, 255, 0.2);
+$focus-ring: rgba(0, 212, 255, 0.4);
+
+// Font
+$font: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+// UI Styles
+$border: 1px solid #2D3748;           // Subtle borders
+$border-light: 1px solid #4A5568;     // More visible borders
+$border-accent: 1px solid $primary;   // Accent borders
+$shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+$shadow-elevated: 0 25px 60px rgba(0, 0, 0, 0.6);
+$glow: 0 0 20px rgba(0, 212, 255, 0.3);
+
+// Border Radius
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 16px;
+$radius-xl: 24px;
+
+// Responsive Breakpoints
+$xl: 1280px;
+$lg: 1024px;
+$md: 768px;
+$sm: 640px;
+$xs: 359px;
+
+// Animation & Transitions
+$transition-fast: 0.15s ease-out;
+$transition-normal: 0.25s ease-out;
+$transition-slow: 0.35s ease-out;
+
+// Z-index Scale
+$z-dropdown: 1000;
+$z-modal: 2000;
+$z-tooltip: 3000;
+$z-toast: 4000;
